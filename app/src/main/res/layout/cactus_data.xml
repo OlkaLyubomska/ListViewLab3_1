@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="236dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="163dp"
+            android:text="Astrophytum"
+            android:textColor="#000"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="162dp"
+            android:layout_height="107dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/astrophytum" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
